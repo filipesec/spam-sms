@@ -2,18 +2,11 @@
 Trabalho de Reconhecimento de Padrões para classificação de mensagens SMS em spam e não spam utilizando Logistic Regression
 
 ## Estrutura do Projeto
-spam-sms/
-├── src/
-│   ├── eda.py -> **Etapa 1**
-│   ├── processing.py -> **Etapa 2**
-│   ├── train_model.py -> **Etapa 3**
-│   └── evaluation.py -> **Etapa 4**
-├── data/
-│   └── spam.csv
-├── outputs/
-├── main.py
-├── requirements.txt
-└── README.md
+
+│eda.py -> **Etapa 1**
+│processing.py -> **Etapa 2**
+│train_model.py -> **Etapa 3**
+│evaluation.py -> **Etapa 4**
 
 ## Pré‑requisitos
 
