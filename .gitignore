@@ -1,0 +1,6 @@
+venv/
+
+data/sms_dataset_clean.csv
+outputs/*
+
+__pycache__/
