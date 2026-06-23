@@ -3,10 +3,10 @@ Trabalho de Reconhecimento de Padrões para classificação de mensagens SMS em 
 
 ## Estrutura do Projeto
 
-│eda.py -> **Etapa 1**
-│processing.py -> **Etapa 2**
-│train_model.py -> **Etapa 3**
-│evaluation.py -> **Etapa 4**
+- eda.py -> **Etapa 1**
+- processing.py -> **Etapa 2**
+- train_model.py -> **Etapa 3**
+- evaluation.py -> **Etapa 4**
 
 ## Pré‑requisitos
 
