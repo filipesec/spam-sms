@@ -28,7 +28,7 @@ def run_eda():
     df['label'].value_counts().plot.pie(autopct='%1.1f%%', labels=['Ham','Spam'], colors=['green','red'])
     plt.title('Proporção de mensagens')
     plt.ylabel('')
-    plt.savefig('outputs/pizza_classes.png')
+    plt.savefig('outputs/pizza_class.png')
     plt.show()
     #boxplot
     df.boxplot(column='palavras', by='label')
@@ -36,7 +36,7 @@ def run_eda():
     plt.suptitle('')
     plt.xlabel('Classe')
     plt.ylabel('Palavras')
-    plt.savefig('outputs/boxplot_palavras.png')
+    plt.savefig('outputs/boxplot_words.png')
     plt.show()
 
 if __name__ == "__main__":
