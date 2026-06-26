@@ -13,6 +13,7 @@ Trabalho de Reconhecimento de Padrões para classificação de mensagens SMS em 
 - Ambiente virtual Python (`venv`)
 - pandas
 - matplotlib
+- scikit-learn
 
 ## Para Instalar Dependências:
 
@@ -29,3 +30,15 @@ Trabalho de Reconhecimento de Padrões para classificação de mensagens SMS em 
 - Código em `src/eda.py`, executado automaticamente via `main.py`.
 
 A **Etapa 2** deve utilizar `data/sms_dataset_clean.csv`.
+
+## Etapa 2 (concluída)
+
+- Utilização do dataset gerado na etapa 1: `data/sms_dataset_clean.csv`.
+- Pré-processamento dos textos realizado:
+  - Conversão das mensagens para letras minúsculas.
+  - Remoção de links.
+  - Remoção de números.
+  - Remoção de caracteres especiais.
+- Representação dos textos utilizando TF-IDF.
+- Divisão do dataset em conjuntos de treinamento e teste utilizando `train_test_split` com estratificação das classes.
+- Código implementado em `src/processing.py`.
