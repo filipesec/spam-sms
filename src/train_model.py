@@ -1,10 +1,3 @@
-# Preciso treinar o modelo
-
-# Implementar logistic regression
-# Treinar o modelo
-# fazer testes
-# Ajustar parâmetros básicos se necessário
-
 from sklearn.linear_model import LogisticRegression
 from processing import run_processing, X_train, y_train, X_test
 
