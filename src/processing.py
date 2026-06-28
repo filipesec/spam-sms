@@ -25,8 +25,12 @@ def run_processing():
     # verificar resultado da limpeza
     print(df[['message', 'message_clean']].head())
 
-    X = df['message_clean'] #
-    y = df['label_num'] # msg que será analizada
+
+    # Dados tratados com limpeza, a entrada que será analizada pelo algoritmo (X) e a saída dos dados processada com a classificação de spam ou não spam (y)
+
+    X = df['message_clean']
+    y = df['label_num']
+
 
     # TF-IDF
     vectorizer = TfidfVectorizer(
