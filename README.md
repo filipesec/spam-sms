@@ -42,3 +42,11 @@ A **Etapa 2** deve utilizar `data/sms_dataset_clean.csv`.
 - Representação dos textos utilizando TF-IDF.
 - Divisão do dataset em conjuntos de treinamento e teste utilizando `train_test_split` com estratificação das classes.
 - Código implementado em `src/processing.py`.
+
+## Etapa 3 (concluída)
+
+- Treinamento do modelo a partir do conjunto de dados de treinamento definido na etapa 2: `src/processing.py`.
+- Importação do conjunto de dados da função run_processing do arquivo `src/processing.py` para uso na Regressão Logística.
+- Aplicação da Regressão Logística utilizando a biblioteca scikit-learn.
+- Previsão do resultado da classificação da mensagem em spam ou não spam.
+- Código implementado em `src/train_model.py`.
