@@ -1,18 +1,27 @@
 from sklearn.linear_model import LogisticRegression
-from processing import run_processing, X_train, y_train, X_test
+from processing import run_processing
 
 # Os dados do conjunto de treinamento são importados da função run_processing para aplicá-los no LogisticRegression
 
-# Carrega o processamento e os dados dos conjuntos de treinamento e de teste
-run_processing()
-
 # Os dados importados são executados 
-model = LogisticRegression()
-model.fit(X_train, y_train)
 
-# Previsões -> Mensagem (spam/não spam)
-predictions = model.predict(X_test)
-print(predictions)
+def training_model():
+ 
+
+ X_train, X_test, y_train, y_test, vectorizer = run_processing()
+
+ model = LogisticRegression(max_iter=1000)
+ model.fit(X_train, y_train)
+
+ # Previsões -> Mensagem (spam/não spam)
+ predictions = model.predict(X_test)
+ print("\nTREINAMENTO CONCLUÍDO COM SUCESSO!")
+  
+ return model, X_test, y_test, predictions
+
+if __name__ == "__main__":
+    training_model()
+
 
 # Para o próximo arquivo, faça: 
 
