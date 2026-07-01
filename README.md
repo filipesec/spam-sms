@@ -50,3 +50,17 @@ A **Etapa 2** deve utilizar `data/sms_dataset_clean.csv`.
 - Aplicação da Regressão Logística utilizando a biblioteca scikit-learn.
 - Previsão do resultado da classificação da mensagem em spam ou não spam.
 - Código implementado em `src/train_model.py`.
+
+## Etapa 4 (concluída)
+
+- Avaliação do modelo treinado na etapa 3 utilizando as previsões geradas pela Regressão Logística.
+- Cálculo das principais métricas de desempenho:
+  - Acurácia.
+  - Precisão.
+  - Recall.
+  - F1-Score.
+- Geração da matriz de confusão para comparação entre as classes reais e as previstas.
+- Geração dos gráficos finais de desempenho do modelo.
+- Relatório de classificação exibindo os resultados para as classes ham e spam.
+- Gráficos salvos na pasta `outputs/`.
+- Código implementado em `src/evaluation.py`.

@@ -1,5 +1,5 @@
 from sklearn.linear_model import LogisticRegression
-from processing import run_processing
+from src.processing import run_processing
 
 # Os dados do conjunto de treinamento são importados da função run_processing para aplicá-los no LogisticRegression
 
